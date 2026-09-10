@@ -1,9 +1,9 @@
 name: Code Checks
 
 on:
-  push:
-      paths-ignore:
-          - 'docs/**'
+  # push:
+  #     paths-ignore:
+  #         - 'docs/**'
   pull_request:
       paths-ignore:
           - 'docs/**'
