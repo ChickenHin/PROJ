@@ -1,12 +1,12 @@
 name: Docker
 
 on:
-  push:
-      paths-ignore:
-          - 'docs/**'
-      branches-ignore: ["dependabot/**"]
-      tags:
-          - '*'
+  # push:
+  #     paths-ignore:
+  #         - 'docs/**'
+  #     branches-ignore: ["dependabot/**"]
+  #     tags:
+  #         - '*'
   pull_request:
       paths-ignore:
           - 'docs/**'
