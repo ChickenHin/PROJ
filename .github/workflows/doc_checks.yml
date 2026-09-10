@@ -1,10 +1,10 @@
 name: Docs
 
 on:
-    push:
-        branches-ignore:
-            - 'backport**'
-            - 'dependabot**'
+    # push:
+    #     branches-ignore:
+    #         - 'backport**'
+    #         - 'dependabot**'
     pull_request:
 
 concurrency:
